@@ -19,7 +19,7 @@
     function initMap() {
       var myOptions = {
         zoom: 8,
-        center: {lat: 35.7217636, lng: 139.4667473},
+        center: {lat: 34.8327668, lng: 135.4689897},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         disableDefaultUI: true,
         // Step 4. Customize displayed controls
@@ -34,14 +34,14 @@
       var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 35.7217636, lng: 139.4667473},
+        position: {lat: 34.8327668, lng: 135.4689897},
         icon: iconBase + 'flag_maps.png',
         map: map
       });
 
       // Step 3. Add info window
 
-      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">Custom info window</h2><p>This is a cool custom info window.</p></div>';
+      var contentString = '<div id="content"><h2 id="firstHeading" class="firstHeading">ミスタードーナツ箕面ショップ</h2><p>ミスタードーナツの一号店。私はミスドのドーナツが好きです。</p></div>';
 
       var infowindow = new google.maps.InfoWindow({
         content: contentString
